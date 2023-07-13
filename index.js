@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/products',productsRouters);
 app.use('/api/cart',cartsRouters);
 
-const PORT = 4000;
+const PORT = 8080;
 app.listen(PORT, () => {
   console.log("servidor fuinciona");
 });
